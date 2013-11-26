@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="keywords" content="HTML, CSS, A+, Awesome Work" />
+<meta name="description" content="This is my Project 1 in Graphics" />
+<meta name="author" content="Kyle Ledermann" />
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/foundation.css" />
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+<link rel="stylesheet" type="text/css" href="css/styles_main.css"/>
+<script src="js/vendor/custom.modernizr.js"></script>
+
+<!-- JavaScript Includes -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('a[href*=#]').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target
+      || $('[name=' + this.hash.slice(1) +']');
+      if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 400);
+       return false;
+      }
+    }
+  });
+});
+</script>
+<title>. . : : threezy : : . .</title>
+</head>
+<body>
+<div class="contain-to-grid sticky">
+<nav class="top-bar">
+<ul class="title-area">
+  <li class="name">
+    <h1><a href="#home" class="click">threezy</a></h1>
+  </li>
+  <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+</ul>
+<section class="top-bar-section">
+<!-- Left Nav Section -->
+<ul class="left">
+  <li class="divider"></li>
+  <li class="active"><a href="#about" class="click">about us</a></li>
+  <li class="divider"></li>
+  <li><a href="#ourteam" class="click">our team</a></li>
+  <li class="divider"></li>
+  <li><a href="#services" class="click">services</a></li>
+  <li class="divider"></li>
+  <li><a href="#portfolio" class="click">portfolio</a></li>
+</ul>
+<img alt="threezy Logo" src="images/logo_white.png" />
+<ul class="right">
+
+<li class="divider"></li>
+<li><a href="#contactz" class="click">contact</a></li>
+<li class="divider"></li>
+</ul>
+
+</section>
+</nav>
+</div>
+
+<!-- BEGIN: Page Content -->
+<aside>
+<a href="#contact">Request a quote<img alt="threezy Logo" src="images/logo_white.png" /></a>
+</aside>
+<section class="home" id="home">
+  <div class="home-content-outer">
+    <div class="home-content">
+      <div class="logo"> <img alt="threezy Logo" src="images/logo.png"> </div>
+      <div class="home-divider"></div>
+      <h1>Web development<br />
+        for the future</h1>
+      <div class="home-divider"></div>
+    </div>
+  </div>
+</section>
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="row"> <img alt="about_spot" src="images/about_spot.png" />
+    <h2>ABOUT US</h2>
+    <div id="aboutstuff_first"> <br />
+      threezy is a fully integrated Web development company that has successfully<br />
+      developed a full range of custom interactive Web sites and database applications. </div>
+    <br />
+    <div id="aboutstuff"> threezy also provides hosting solutions and has a wide variety of print design experience<br />
+      including catalogues, flyers and other advertising materials. 
+      By employing new media technologies<br />
+      that empower end-users through 
+      inspiring interactive experiences, we at eon hope to change the way<br />
+      people 
+      share information. We offer solutions that are backed by experience with corporate, 
+      educational, <br />
+      and nonprofit clients. <br />
+    </div>
+  </div>
+</section>
+<!-- OURTEAM -->
+<section class="ourteam" id="ourteam">
+  <div class="row"> <img alt="ourteam_spot" src="images/ourteam_spot.png" />
+    <h2>OUR TEAM</h2>
+    <div id="ourteam_first"> <br />
+      Kyle Ledermann is threezy’s President and owner<br />
+      He holds an honours diploma in Graphic Design where
+      he <br />
+      focused on interactive media and advanced pagination. </div>
+    <br />
+    <div id="aboutourteam"> Specializing in information technology and user interfaces,
+      he brings<br />
+      many years of design and internet consulting and 
+      development experience.<br />
+      Kyle is currently pursuing another 
+      honours diploma in Internet applications and<br />
+      Web development to 
+      further advance his knowledge of web-centric systems and <br />
+      larger 
+      more complex programming applications. </div>
+  </div>
+</section>
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="row"> <img alt="services_spot" src="images/services_spot.png" />
+    <h2>SERVICES</h2>
+    <div id="services_first"> <br />
+      Our staff of innovative designers and developers works with<br />
+      clients to 
+      craft websites that take their businesses to the next level.<br />
+      We provide a 
+      number of design and development services, including: </div>
+    <br />
+    <div id="aboutservices">
+      <ul>
+        <li>Website Design</li>
+        <li>Website Hosting</li>
+        <li>Website Maintenance</li>
+        <li>Mobile Website Development</li>
+        <li>E-commerce Solutions</li>
+        <li>Mobile Application Development</li>
+        <li>Custom Programming</li>
+        <li>Logo Design</li>
+        <li>Newsletter Design</li>
+      </ul>
+      <br />
+    </div>
+  </div>
+</section>
+<!-- PORTFOLIO -->
+<section class="portfolio" id="portfolio">
+  <div class="row"> <img alt="portfolio_spot" src="images/portfolio_spot.png" />
+    <h2>PORTFOLIO</h2>
+    <div id="portfolio_first"> <br />
+      This section will be updated shortly<br />
+      Please check back soon! </div>
+    <br />
+    <div id="aboutportfolio"> threezy also provides hosting solutions and has a wide variety of print design experience<br />
+      including catalogues, flyers and other advertising materials. 
+      By employing new media technologies<br />
+      that empower end-users through 
+      inspiring interactive experiences, we at threezy hope to change the way<br />
+      people 
+      share information. We offer solutions that are backed by experience with corporate, 
+      educational, <br />
+      and nonprofit clients. <br />
+    </div>
+  </div>
+</section>
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="row">
+    <h2>CONTACT</h2>
+    <div id="aboutcontact_first"> <br />
+      Apt 105<br />
+      759 Second Street<br />
+      London, On.<br />
+      N5V 2B8<br />
+    </div>
+    <div id="aboutcontact"> <br />
+      kyle.ledermann@hotmail.com<br />
+      <br />
+      519.546.3939<br />
+    </div>
+  </div>
+</section>
+<div id="contactz"></div>
+<!-- END: Page Content --> 
+
+<!-- BEGIN: Sticky Footer -->
+<div class="footer_container">
+  <div class="row" id="footer">
+    <div class="small-6 large-3 columns"> Copyright 2013 threezy </div>
+    <div class="small-6 large-5 columns"> <img alt="twitter" src="images/icons/twitter.png"> <img alt="facebook" src="images/icons/facebook.png"> <img alt="google_plus" src="images/icons/google_plus.png"> <img alt="flickr" src="images/icons/flickr.png"> <img alt="linkedin" src="images/icons/linkedin.png"> <img alt="pinterest" src="images/icons/pinterest.png"> <img alt="youtube" src="images/icons/youtube.png"> </div>
+  </div>
+</div>
+<!-- END: Sticky Footer --> 
+
+<script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script> 
+<script src="js/foundation/foundation.js"></script> 
+<script src="js/foundation/foundation.alerts.js"></script> 
+<script src="js/foundation/foundation.clearing.js"></script> 
+<script src="js/foundation/foundation.cookie.js"></script> 
+<script src="js/foundation/foundation.dropdown.js"></script> 
+<script src="js/foundation/foundation.forms.js"></script> 
+<script src="js/foundation/foundation.joyride.js"></script> 
+<script src="js/foundation/foundation.magellan.js"></script> 
+<script src="js/foundation/foundation.orbit.js"></script> 
+<script src="js/foundation/foundation.placeholder.js"></script> 
+<script src="js/foundation/foundation.reveal.js"></script> 
+<script src="js/foundation/foundation.section.js"></script> 
+<script src="js/foundation/foundation.tooltips.js"></script> 
+<script src="js/foundation/foundation.topbar.js"></script> 
+<script src="js/foundation/foundation.interchange.js"></script> 
+<script>
+    $(document).foundation();
+  </script>
+</body>
+</html>

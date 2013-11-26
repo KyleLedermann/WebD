@@ -1,0 +1,308 @@
+body {
+	font-family: 'lane_-_narrowregular';
+	margin:0;
+	padding:0;
+}
+aside {
+	display:block;
+	position: fixed;
+	top: 70%;
+	left: -140px;
+	z-index:100;
+}
+aside a {
+	display:block;
+	width: 180px;
+	padding: 5px;
+	height: 40px;
+	color: white;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+}
+aside img {
+	width: 35px;
+	float:right;
+	margin-top: -10px;
+}
+aside a:hover {
+	transform: translate(150px);
+	-webkit-transform: translate(150px);
+	-moz-transform: translate(150px);
+	color: white;
+}
+.top-bar-section ul li a {
+	display: block;
+	width: 100px;
+	padding: 8px;
+	text-decoration: none;
+	font-family: 'lane_-_narrowregular';
+	-webkit-transition: all 1s ease-in;
+	transition: all 0.5s ease-in;
+	color: white;
+}
+.top-bar-section ul li a:hover {
+	color:#008da3;
+	text-decoration:none;
+}
+.top-bar-section img {
+	padding-top: 4px;
+	float: right;
+	width: 40px;
+	background-color: #231f20;
+}
+.container {
+	margin:0 auto;
+	overflow:auto;
+	width:100%;
+}
+.home {
+	background-image: url('../images/home.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	padding: 0;
+	margin-bottom: 0;
+	text-align: center;
+	height: 750px;
+}
+h1 {
+	margin-top: 100px;
+	font-family: 'lane_-_narrowregular';
+	font-size: 22px;
+	color: white;
+}
+.logo {
+	margin: auto;
+	padding: 60px 0 25px 0;
+}
+.about {
+	background-image: url('../images/about_us.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-color: #c4095d;
+	height: 780px;
+	padding: 160px 10px 10px 10px;
+}
+.about img, .ourteam img, .services img, .portfolio img {
+	width: 50px;
+	height: 50px;
+	margin-top: -16px;
+}
+.portfolio img {
+	float:right;
+	margin-top:-10px;
+}
+.ourteam img {
+	float:right;
+	margin-top: 100px;
+}
+.portfolio h2 {
+	float: right;
+	margin-right: 10px;
+}
+.ourteam h2, .contact h2 {
+	margin-top: 112px;
+	float: right;
+	margin-right: 10px;
+}
+.contact h2 {
+	margin-right:0px;
+}
+h2, .services h2 {
+	display: inline;
+	color: white;
+	font-size: 20px;
+	margin-left: 10px;
+}
+#aboutstuff_first {
+	color: #fdf834;
+}
+#aboutstuff, #aboutourteam, #aboutservices, #aboutportfolio, #aboutcontact, #aboutcontact_first {
+	color: white;
+}
+#aboutstuff, #aboutstuff_first, #ourteam_first, #aboutourteam, #aboutservices, #services_first, #aboutportfolio, #portfolio_first {
+	margin-top: 40px;
+	font-family: 'lane_-_narrowregular';
+	font-size: 18px;
+	line-height: 150%;
+}
+#ourteam_first, #aboutourteam, #aboutcontact, #aboutcontact_first {
+	float: right;
+	clear:both;
+}
+#aboutcontact, #aboutcontact_first {
+	text-align:right;
+	font-size: 18px;
+	line-height: 100%;
+}
+#ourteam_first, #services_first, #portfolio_first {
+	color: #fdf834;
+}
+.ourteam {
+	background-image: url('../images/our_team.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	padding: 80px 10px 10px 10px;
+	margin-bottom: 0;
+	text-align: right;
+	height: 780px;
+}
+.services {
+	background-image: url('../images/services.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-color: #b80b00;
+	height: 780px;
+	padding: 140px 10px 10px 10px;
+}
+#aboutservices ul li {
+	list-style-type: none;
+	display:block
+}
+.portfolio {
+	background-image: url('../images/portfolio.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	padding: 200px 10px 10px 10px;
+	margin-bottom: 0;
+	text-align: right;
+	height: 780px;
+}
+.contact {
+	background-image: url('../images/contact.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-color: #231f20;
+	height: 780px;
+	padding: 380px 10px 10px 10px;
+}
+.footer_container {
+	background:black;
+	bottom:0;
+	height:45px;
+	left:0;
+	position:fixed;
+	width:100%;
+	color: white;
+	font-size: 14px;
+}
+.footer_container img {
+	width: 25px;
+	height: 25px;
+	margin: 0 10px 2px 0;
+}
+#footer {
+	line-height:60px;
+	margin:0 auto;
+	text-align:center;
+	margin-top: -6px;
+}
+ @media (max-height: 1024px)  {
+.home, .ourteam, .services, .portfolio, .contact, .about {
+	height: 950px;
+}
+#aboutstuff, #aboutstuff_first, #ourteam_first, #aboutourteam, #aboutservices, #services_first, #aboutportfolio, #portfolio_first {
+	margin-top: 40px;
+	font-family: 'lane_-_narrowregular';
+	font-size: 18px;
+	line-height: 150%;
+}
+
+}		
+/* skinny */			
+@media (max-width: 979px) {
+.logo {
+	margin: auto;
+	padding: 100px 0 25px 0;
+	height: 50px;
+	width: 120px;
+}
+#aboutstuff, #aboutstuff_first, #ourteam_first, #aboutourteam, #aboutservices, #services_first, #aboutportfolio, #portfolio_first {
+	margin-top: 20px;
+	font-family: 'lane_-_narrowregular';
+	font-size: 16px;
+	line-height: 120%;
+}
+#aboutcontact_first{
+	text-align:right;
+	font-size: 18px;
+	line-height: 100%;
+	margin-top: 20px;
+}
+#aboutcontact{
+	
+}
+h1 {
+	margin-top: 250px;
+	font-family: 'lane_-_narrowregular';
+	font-size: 22px;
+	color: white;
+}
+}
+@media (min-width: 480px) and (max-height: 650px) {
+#aboutstuff, #aboutstuff_first, #ourteam_first, #aboutourteam, #aboutservices, #services_first, #aboutportfolio, #portfolio_first {
+	margin-top: 20px;
+	font-family: 'lane_-_narrowregular';
+	font-size: 16px;
+	line-height: 120%;
+}
+#contact_first {
+	text-align:right;
+	font-size: 18px;
+	line-height: 150%;
+	margin-top: -140px;
+}
+.contact{
+	height: 750px;
+}
+.home, .ourteam, .services, .portfolio, .about {
+	height: 600px;
+}
+.logo {
+	margin: auto;
+	padding: 100px 0 25px 0;
+	height: 50px;
+	width: 120px;
+}
+h1 {
+	margin-top: 250px;
+	font-family: 'lane_-_narrowregular';
+	font-size: 22px;
+	color: white;
+}
+}
+ @media (max-width: 480px) and (min-height: 650px) {
+.home, .ourteam, .services, .portfolio, .contact, .about {
+	height: 950px;
+}
+#aboutstuff, #aboutstuff_first, #ourteam_first, #aboutourteam, #aboutservices, #services_first, #aboutportfolio, #portfolio_first {
+	margin-top: 20px;
+	font-family: 'lane_-_narrowregular';
+	font-size: 16px;
+	line-height: 120%;
+}
+.logo {
+	margin: auto;
+	padding: 100px 0 25px 0;
+	height: 50px;
+	width: 120px;
+}
+h1 {
+	margin-top: 250px;
+	font-family: 'lane_-_narrowregular';
+	font-size: 22px;
+	color: white;
+}
+}
